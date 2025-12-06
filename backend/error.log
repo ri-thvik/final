@@ -1,0 +1,427 @@
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:07:47.907Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:07:48.276Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:07:48.695Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:07:49.160Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:07:49.669Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:07:50.229Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:07:50.838Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:07:51.494Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:07:52.203Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:07:52.965Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:07:53.773Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:07:54.629Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:07:55.548Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:07:56.514Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:07:57.533Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:07:58.597Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:07:59.721Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:00.885Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:02.112Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:03.381Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:04.701Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:06.077Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:07.490Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:08.953Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:10.462Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:12.027Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:13.632Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:15.298Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:17.006Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:18.765Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:20.572Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:22.438Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:24.350Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:26.306Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:28.322Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:30.331Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:32.337Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:34.345Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:36.356Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:38.368Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:40.376Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:42.390Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:44.403Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:46.418Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:48.433Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:50.450Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:52.466Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:54.475Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:56.491Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:08:58.502Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:00.512Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:02.523Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:04.533Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:06.540Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:08.552Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:10.567Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:12.576Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:14.590Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:16.601Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:18.610Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:20.619Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:22.624Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:24.643Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:26.651Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:28.660Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:30.675Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:32.684Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:34.693Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:36.709Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:38.714Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:40.728Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:42.740Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:44.752Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:46.764Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:48.772Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:50.785Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:52.792Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:54.794Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:56.808Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:09:58.821Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:09.647Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:09.711Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:09.822Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:09.976Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:10.192Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:10.453Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:10.767Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:11.125Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:11.542Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:12.008Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:12.521Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:13.081Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:13.691Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:14.356Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:15.071Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:15.832Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:16.638Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:17.493Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:18.412Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:19.378Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:20.389Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:21.444Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:10:22.562Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:40.962Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:41.020Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:41.136Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:41.291Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:41.508Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:41.771Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:42.081Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:42.434Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:42.850Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:43.312Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:43.823Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:44.381Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:44.990Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:45.644Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:46.361Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:47.124Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:47.935Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:48.791Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:49.694Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:50.658Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:51.668Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:52.725Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:53.833Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:54.996Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:56.203Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:57.461Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:12:58.769Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:00.126Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:01.543Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:03.006Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:04.512Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:06.071Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:07.683Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:09.346Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:11.062Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:12.815Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:14.622Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:16.491Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:18.405Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:20.366Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:22.370Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:24.383Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:26.391Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:28.401Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:30.411Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:32.418Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:34.441Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:36.450Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:38.462Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:40.484Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:42.493Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:44.501Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:46.516Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:48.533Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:50.548Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:52.558Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:54.565Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:56.578Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:13:58.589Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:00.595Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:02.606Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:04.612Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:06.622Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:08.627Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:10.637Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:12.649Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:14.668Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:16.672Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:18.684Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:20.696Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:22.706Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:24.714Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:26.731Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:28.739Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:30.742Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:32.751Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:34.757Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:36.764Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:38.769Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:40.776Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:42.794Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:44.810Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:46.826Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:48.835Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:50.844Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:52.859Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:54.865Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:56.869Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T07:14:58.875Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:29:57.707Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:29:59.723Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:01.759Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:03.771Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:05.786Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:07.790Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:09.807Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:11.831Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:13.846Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:15.859Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:17.872Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:19.880Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:21.897Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:23.916Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:25.924Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:27.929Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:29.940Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:31.953Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:33.970Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:35.979Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:37.988Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:39.996Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:43.624Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:43.682Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:43.790Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:43.946Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:44.165Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:44.430Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:44.738Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:45.099Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:45.517Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T08:30:45.973Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:15.482Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:15.535Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:15.645Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:15.798Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:16.004Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:16.266Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:16.577Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:16.937Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:17.346Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:17.810Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:18.324Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:18.878Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:19.485Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:20.147Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:20.851Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:21.610Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:22.422Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:23.284Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:24.201Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:25.161Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:26.173Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:27.231Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:28.334Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:29.500Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:30.709Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:31.966Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:33.277Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:34.644Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:36.050Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:37.515Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:39.025Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:40.589Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:42.205Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:43.874Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:45.593Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:47.356Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:49.163Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:51.021Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:52.935Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:54.888Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:56.903Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:14:58.918Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:00.922Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:02.937Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:04.944Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:06.955Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:08.960Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:10.979Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:12.988Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:15.005Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:17.018Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:19.030Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:21.043Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:23.056Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:25.071Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:27.077Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:29.093Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:31.110Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:33.124Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:35.136Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:37.152Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:39.169Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:41.184Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:43.195Z"}
+{"level":"error","message":"Redis Error: ","timestamp":"2025-11-27T10:15:45.206Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-02T10:58:44.563Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-02T14:11:54.778Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-02T14:31:13.264Z"}
+{"level":"error","message":"Can't extract geo keys: { _id: ObjectId('692ef8a0d24b0e09f3fd1733'), userId: ObjectId('692ef8a0d24b0e09f3fd172e'), vehicleType: \"auto\", vehicleNumber: \"KA 00 XX 0000\", vehicleModel: \"Default Auto\", location: { type: \"Point\" }, status: \"offline\", metrics: { totalTrips: 0, acceptedTrips: 0, rejectedTrips: 0, cancelledTrips: 0, acceptanceRate: 1, cancellationRate: 0, avgRating: 5, totalEarnings: 0, idleMinutes: 0 }, serviceArea: { type: \"Polygon\", coordinates: [] }, isVerified: false, isActive: false, createdAt: new Date(1764685984700), updatedAt: new Date(1764685984700), __v: 0 }  Point must be an array or object, instead got type missing","timestamp":"2025-12-02T14:33:04.737Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-02T15:03:26.267Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-02T15:05:26.967Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-02T15:05:27.623Z"}
+{"level":"error","message":"Auth error: jwt malformed","timestamp":"2025-12-02T15:08:13.457Z"}
+{"level":"error","message":"Auth error: jwt malformed","timestamp":"2025-12-02T15:10:56.705Z"}
+{"level":"error","message":"Auth error: jwt malformed","timestamp":"2025-12-02T15:10:58.565Z"}
+{"level":"error","message":"Auth error: jwt malformed","timestamp":"2025-12-02T15:10:59.389Z"}
+{"level":"error","message":"Auth error: jwt malformed","timestamp":"2025-12-02T15:10:59.707Z"}
+{"level":"error","message":"Auth error: jwt malformed","timestamp":"2025-12-02T15:10:59.903Z"}
+{"level":"error","message":"Auth error: jwt malformed","timestamp":"2025-12-02T15:11:00.120Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-02T15:13:58.447Z"}
+{"level":"error","message":"Auth error: jwt malformed","timestamp":"2025-12-02T15:14:02.656Z"}
+{"level":"error","message":"Auth error: jwt malformed","timestamp":"2025-12-02T15:14:09.389Z"}
+{"level":"error","message":"Auth error: jwt malformed","timestamp":"2025-12-02T15:14:26.664Z"}
+{"level":"error","message":"Can't extract geo keys: { _id: ObjectId('692f06f893708b32367a9771'), userId: ObjectId('692f06f893708b32367a976c'), vehicleType: \"auto\", vehicleNumber: \"KA 00 XX 0000\", vehicleModel: \"Default Auto\", location: { type: \"Point\" }, status: \"offline\", metrics: { totalTrips: 0, acceptedTrips: 0, rejectedTrips: 0, cancelledTrips: 0, acceptanceRate: 1, cancellationRate: 0, avgRating: 5, totalEarnings: 0, idleMinutes: 0 }, serviceArea: { type: \"Polygon\", coordinates: [] }, isVerified: false, isActive: false, createdAt: new Date(1764689656319), updatedAt: new Date(1764689656319), __v: 0 }  Point must be an array or object, instead got type missing","timestamp":"2025-12-02T15:34:16.357Z"}
+{"level":"error","message":"Auth error: jwt malformed","timestamp":"2025-12-02T15:36:01.206Z"}
+{"level":"error","message":"Auth error: jwt malformed","timestamp":"2025-12-02T15:36:26.783Z"}
+{"level":"error","message":"Auth error: jwt malformed","timestamp":"2025-12-02T15:36:48.114Z"}
+{"level":"error","message":"Auth error: jwt malformed","timestamp":"2025-12-02T15:39:22.261Z"}
+{"level":"error","message":"Auth error: jwt malformed","timestamp":"2025-12-02T15:39:43.435Z"}
+{"level":"error","message":"Auth error: jwt malformed","timestamp":"2025-12-02T15:39:43.655Z"}
+{"level":"error","message":"Auth error: jwt malformed","timestamp":"2025-12-02T15:40:08.816Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-02T15:41:07.473Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-02T15:41:13.930Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-02T15:56:14.832Z"}
+{"level":"error","message":"Can't extract geo keys: { _id: ObjectId('692f0c9e93708b32367a978e'), userId: ObjectId('692f0c9e93708b32367a9789'), vehicleType: \"auto\", vehicleNumber: \"KA 00 XX 0000\", vehicleModel: \"Default Auto\", location: { type: \"Point\" }, status: \"offline\", metrics: { totalTrips: 0, acceptedTrips: 0, rejectedTrips: 0, cancelledTrips: 0, acceptanceRate: 1, cancellationRate: 0, avgRating: 5, totalEarnings: 0, idleMinutes: 0 }, serviceArea: { type: \"Polygon\", coordinates: [] }, isVerified: false, isActive: false, createdAt: new Date(1764691102622), updatedAt: new Date(1764691102622), __v: 0 }  Point must be an array or object, instead got type missing","timestamp":"2025-12-02T15:58:22.628Z"}
+{"level":"error","message":"Can't extract geo keys: { _id: ObjectId('692f0f0893708b32367a97ae'), userId: ObjectId('692f0e6893708b32367a97a1'), vehicleType: \"auto\", vehicleNumber: \"KA01AB1234\", vehicleModel: \"Bajaj RE\", vehicleColor: \"Yellow\", location: { type: \"Point\" }, status: \"offline\", metrics: { totalTrips: 0, acceptedTrips: 0, rejectedTrips: 0, cancelledTrips: 0, acceptanceRate: 1, cancellationRate: 0, avgRating: 5, totalEarnings: 0, idleMinutes: 0 }, serviceArea: { type: \"Polygon\", coordinates: [] }, isVerified: false, isActive: false, createdAt: new Date(1764691720758), updatedAt: new Date(1764691720758), __v: 0 }  Point must be an array or object, instead got type missing","timestamp":"2025-12-02T16:08:40.760Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-02T16:18:45.937Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-02T16:19:29.925Z"}
+{"level":"error","message":"Can't extract geo keys: { _id: ObjectId('692f1635bd56abf7d04b6b81'), userId: ObjectId('692f1635bd56abf7d04b6b7c'), vehicleType: \"auto\", vehicleNumber: \"KA 00 XX 0000\", vehicleModel: \"Default Auto\", location: { type: \"Point\" }, status: \"offline\", metrics: { totalTrips: 0, acceptedTrips: 0, rejectedTrips: 0, cancelledTrips: 0, acceptanceRate: 1, cancellationRate: 0, avgRating: 5, totalEarnings: 0, idleMinutes: 0 }, serviceArea: { type: \"Polygon\", coordinates: [] }, isVerified: false, isActive: false, createdAt: new Date(1764693557470), updatedAt: new Date(1764693557470), __v: 0 }  Point must be an array or object, instead got type missing","timestamp":"2025-12-02T16:39:17.475Z"}
+{"level":"error","message":"Can't extract geo keys: { _id: ObjectId('692f1841ba238bd7cc14efe2'), userId: ObjectId('692f1841ba238bd7cc14efdd'), vehicleType: \"auto\", vehicleNumber: \"KA 00 XX 0000\", vehicleModel: \"Default Auto\", location: { type: \"Point\" }, status: \"offline\", metrics: { totalTrips: 0, acceptedTrips: 0, rejectedTrips: 0, cancelledTrips: 0, acceptanceRate: 1, cancellationRate: 0, avgRating: 5, totalEarnings: 0, idleMinutes: 0 }, serviceArea: { type: \"Polygon\", coordinates: [] }, isVerified: false, isActive: false, createdAt: new Date(1764694081640), updatedAt: new Date(1764694081640), __v: 0 }  Point must be an array or object, instead got type missing","timestamp":"2025-12-02T16:48:01.643Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-02T16:51:03.083Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-02T16:51:32.714Z"}
+{"level":"error","message":"E11000 duplicate key error collection: rapidride.drivers index: vehicleNumber_1 dup key: { vehicleNumber: \"KA 00 XX 0000\" }","timestamp":"2025-12-02T17:01:22.347Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-03T06:05:51.720Z"}
+{"level":"error","message":"E11000 duplicate key error collection: rapidride.drivers index: vehicleNumber_1 dup key: { vehicleNumber: \"KA 00 XX 0000\" }","timestamp":"2025-12-03T06:07:29.180Z"}
+{"level":"error","message":"E11000 duplicate key error collection: rapidride.drivers index: vehicleNumber_1 dup key: { vehicleNumber: \"KA 00 XX 0000\" }","timestamp":"2025-12-03T06:11:43.182Z"}
+{"level":"error","message":"E11000 duplicate key error collection: rapidride.drivers index: vehicleNumber_1 dup key: { vehicleNumber: \"KA 00 XX 0000\" }","timestamp":"2025-12-03T06:14:01.768Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'id')","timestamp":"2025-12-03T06:20:19.905Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-03T06:26:51.365Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-03T06:38:23.372Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-03T06:42:04.149Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-03T07:10:59.887Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-03T07:11:04.721Z"}
+{"level":"error","message":"Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2025-12-03T09:30:51.577Z"}
+{"level":"error","message":"Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2025-12-03T09:32:58.727Z"}
+{"level":"error","message":"E11000 duplicate key error collection: rapidride.users index: email_1 dup key: { email: null }","timestamp":"2025-12-05T05:34:37.097Z"}
+{"level":"error","message":"E11000 duplicate key error collection: rapidride.users index: email_1 dup key: { email: null }","timestamp":"2025-12-05T05:35:13.946Z"}
+{"level":"error","message":"E11000 duplicate key error collection: rapidride.users index: email_1 dup key: { email: null }","timestamp":"2025-12-05T05:35:23.403Z"}
+{"level":"error","message":"E11000 duplicate key error collection: rapidride.users index: email_1 dup key: { email: null }","timestamp":"2025-12-05T05:37:28.944Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-05T07:12:39.399Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-05T07:13:29.944Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-05T07:22:28.398Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-05T07:28:11.836Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-05T07:28:50.870Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-05T07:28:52.439Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-05T07:28:53.578Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-05T07:36:45.180Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-05T07:37:16.733Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-05T07:42:22.816Z"}
+{"level":"error","message":"E11000 duplicate key error collection: rapidride.users index: email_1 dup key: { email: null }","timestamp":"2025-12-05T10:28:59.269Z"}
+{"level":"error","message":"E11000 duplicate key error collection: rapidride.users index: email_1 dup key: { email: \"rith@gmail.com\" }","timestamp":"2025-12-05T10:29:30.030Z"}
+{"level":"error","message":"E11000 duplicate key error collection: rapidride.users index: email_1 dup key: { email: \"rith@gmail.com\" }","timestamp":"2025-12-05T10:29:37.425Z"}
+{"level":"error","message":"E11000 duplicate key error collection: rapidride.users index: email_1 dup key: { email: \"rithvikreddy8207@gmail.com\" }","timestamp":"2025-12-05T10:41:04.295Z"}
+{"level":"error","message":"E11000 duplicate key error collection: rapidride.users index: email_1 dup key: { email: \"rithvikreddy8207@gmail.com\" }","timestamp":"2025-12-05T10:41:46.223Z"}
+{"level":"error","message":"E11000 duplicate key error collection: rapidride.users index: email_1 dup key: { email: \"rithvikreddy8207@gmail.com\" }","timestamp":"2025-12-05T10:49:03.797Z"}
+{"level":"error","message":"E11000 duplicate key error collection: rapidride.users index: email_1 dup key: { email: \"rithvikreddy8207@gmail.com\" }","timestamp":"2025-12-05T10:49:17.747Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-05T10:53:16.446Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-05T11:01:32.997Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-05T11:01:59.088Z"}
+{"level":"error","message":"Trip validation failed: status: `driver_arrived` is not a valid enum value for path `status`.","timestamp":"2025-12-05T11:02:18.123Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T12:47:34.750Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T12:47:45.450Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T12:47:52.960Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T12:48:06.023Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T12:48:17.679Z"}
+{"level":"error","message":"Trip validation failed: status: `driver_arrived` is not a valid enum value for path `status`.","timestamp":"2025-12-06T12:48:57.039Z"}
+{"level":"error","message":"Trip validation failed: status: `driver_arrived` is not a valid enum value for path `status`.","timestamp":"2025-12-06T12:49:05.995Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T13:08:42.973Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T13:08:44.945Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:10:03.677Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:18:21.213Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:21:38.226Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:22:06.726Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T13:27:34.964Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T13:27:36.226Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:28:00.187Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:29:01.057Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:29:36.445Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:29:54.066Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:30:27.229Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:35:20.186Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:36:29.506Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:37:52.587Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:38:04.478Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T13:45:57.945Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T13:45:59.863Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:46:32.373Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:47:32.591Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:57:05.710Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:57:43.341Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:58:16.709Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T13:59:04.531Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T14:09:58.952Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T14:09:59.371Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"driver\" (type string) at path \"_id\" for model \"Trip\"","timestamp":"2025-12-06T14:16:51.622Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"driver\" (type string) at path \"_id\" for model \"Trip\"","timestamp":"2025-12-06T14:24:11.377Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T14:26:33.887Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T14:35:24.738Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T14:36:29.700Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"driver\" (type string) at path \"_id\" for model \"Trip\"","timestamp":"2025-12-06T14:37:00.657Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"driver\" (type string) at path \"_id\" for model \"Trip\"","timestamp":"2025-12-06T14:37:01.989Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"driver\" (type string) at path \"_id\" for model \"Trip\"","timestamp":"2025-12-06T14:37:02.785Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"driver\" (type string) at path \"_id\" for model \"Trip\"","timestamp":"2025-12-06T14:37:06.208Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"driver\" (type string) at path \"_id\" for model \"Trip\"","timestamp":"2025-12-06T14:37:08.020Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"driver\" (type string) at path \"_id\" for model \"Trip\"","timestamp":"2025-12-06T14:37:08.499Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"driver\" (type string) at path \"_id\" for model \"Trip\"","timestamp":"2025-12-06T14:37:20.036Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"driver\" (type string) at path \"_id\" for model \"Trip\"","timestamp":"2025-12-06T14:49:19.979Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"driver\" (type string) at path \"_id\" for model \"Trip\"","timestamp":"2025-12-06T14:49:22.345Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"driver\" (type string) at path \"_id\" for model \"Trip\"","timestamp":"2025-12-06T14:49:26.493Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T14:54:32.943Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T14:57:20.386Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T14:57:27.533Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T14:57:40.328Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T15:15:06.657Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T15:20:07.039Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T15:20:14.675Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T15:21:03.477Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T15:54:08.866Z"}
+{"level":"error","message":"Auth error: jwt expired","timestamp":"2025-12-06T15:54:10.948Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T15:56:07.122Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T15:56:44.741Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T16:02:46.263Z"}
+{"level":"error","message":"Surge pricing calculation error: $geoNear, $near, and $nearSphere are not allowed in this context, as these operators require sorting geospatial data. If you do not need sort, consider using $geoWithin instead. Check out https://dochub.mongodb.org/core/near-sort-operation and https://dochub.mongodb.org/core/nearSphere-sort-operationfor more details.","timestamp":"2025-12-06T16:04:57.355Z"}

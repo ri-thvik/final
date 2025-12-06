@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RapidRide Driver</title>
+    <link rel="stylesheet" href="css/driver.css">
+    <link rel="stylesheet" href="css/driver-map.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js"></script>
+</head>
+
+<body>
+    <!-- Splash Screen -->
+    <div id="splash-screen" class="splash-screen">
+        <div class="splash-content">
+            <div class="splash-logo">
+                <i class="fas fa-steering-wheel"></i>
+            </div>
+            <h1 class="splash-title">RapidRide Driver</h1>
+            <p class="splash-tagline">Drive. Earn. Grow.</p>
+            <div class="splash-loader"></div>
+        </div>
+    </div>
+
+    <!-- Auth Screen -->
+    <div id="auth-screen" class="screen" style="display: none;">
+        <div class="auth-container">
+            <div class="auth-header">
+                <div class="auth-logo">
+                    <i class="fas fa-steering-wheel"></i>
+                </div>
+                <h1>Driver Login</h1>
+                <p>Enter your registered phone number</p>
+            </div>
+
+            <div class="auth-form">
+                <div class="input-group">
+                    <div class="input-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <input type="tel" id="phone" placeholder="Phone Number" maxlength="10">
+                </div>
+                <div class="input-group">
+                    <div class="input-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <input type="email" id="auth-email" placeholder="Email (optional)">
+                </div>
+
+                <button class="btn-primary" id="auth-btn" onclick="handleLogin()">
+                    <span>Login</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+
+                <p class="auth-footer">
+                    New driver? <a href="#" onclick="startRegistration(); return false;">Register here</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Registration Screen - Multi-step -->
+    <div id="registration-screen" class="screen" style="display: none;">
+        <div class="registration-container">
+            <!-- Progress Steps -->
+            <div class="registration-progress">
+                <div class="progress-step active" data-step="1">
+                    <div class="step-number">1</div>
+                    <div class="step-label">Basic Info</div>
+                </div>
+                <div class="progress-line"></div>
+                <div class="progress-step" data-step="2">
+                    <div class="step-number">2</div>
+                    <div class="step-label">Vehicle</div>
+                </div>
+                <div class="progress-line"></div>
+                <div class="progress-step" data-step="3">
+                    <div class="step-number">3</div>
+                    <div class="step-label">Documents</div>
+                </div>
+            </div>
+
+            <!-- Step 1: Basic Information -->
+            <div class="registration-step active" id="step-1">
+                <div class="step-header">
+                    <h2>Basic Information</h2>
+                    <p>Let's start with your personal details</p>
+                </div>
+                <div class="step-content">
+                    <div class="input-group">
+                        <div class="input-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <input type="text" id="reg-name" placeholder="Full Name" required>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <input type="tel" id="reg-phone" placeholder="Phone Number" maxlength="10" required>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <input type="email" id="reg-email" placeholder="Email (Optional)">
+                    </div>
+                </div>
+                <div class="step-actions">
+                    <button class="btn-secondary" onclick="cancelRegistration()">Cancel</button>
+                    <button class="btn-primary" onclick="nextStep(2)">Next <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <!-- Step 2: Vehicle Details -->
+            <div class="registration-step" id="step-2">
+                <div class="step-header">
+                    <h2>Vehicle Details</h2>
+                    <p>Tell us about your vehicle</p>
+                </div>
+                <div class="step-content">
+                    <div class="input-group">
+                        <div class="input-icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <select id="reg-vehicle-type" required>
+                            <option value="">Select Vehicle Type</option>
+                            <option value="bike">Bike</option>
+                            <option value="auto">Auto</option>
+                            <option value="car">Car</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-icon">
+                            <i class="fas fa-hashtag"></i>
+                        </div>
+                        <input type="text" id="reg-vehicle-number" placeholder="Vehicle Number (e.g., KA01AB1234)"
+                            required>
+                        <small class="input-hint">Enter without spaces</small>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-icon">
+                            <i class="fas fa-car-side"></i>
+                        </div>
+                        <input type="text" id="reg-vehicle-model" placeholder="Vehicle Model (e.g., Honda City)"
+                            required>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <input type="text" id="reg-vehicle-color" placeholder="Vehicle Color" required>
+                    </div>
+                </div>
+                <div class="step-actions">
+                    <button class="btn-secondary" onclick="prevStep(1)"><i class="fas fa-arrow-left"></i> Back</button>
+                    <button class="btn-primary" onclick="nextStep(3)">Next <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <!-- Step 3: KYC Documents -->
+            <div class="registration-step" id="step-3">
+                <div class="step-header">
+                    <h2>KYC Documents</h2>
+                    <p>Upload your documents for verification</p>
+                </div>
+                <div class="step-content">
+                    <div class="document-upload">
+                        <label class="document-label">
+                            <div class="document-icon">
+                                <i class="fas fa-id-card"></i>
+                            </div>
+                            <div class="document-info">
+                                <h4>Driving License</h4>
+                                <p>Upload your valid driving license</p>
+                            </div>
+                            <input type="file" id="doc-license" accept="image/*,.pdf" class="document-input">
+                            <div class="document-preview" id="preview-license"></div>
+                        </label>
+                    </div>
+                    <div class="document-upload">
+                        <label class="document-label">
+                            <div class="document-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div class="document-info">
+                                <h4>RC (Registration Certificate)</h4>
+                                <p>Upload your vehicle RC</p>
+                            </div>
+                            <input type="file" id="doc-rc" accept="image/*,.pdf" class="document-input">
+                            <div class="document-preview" id="preview-rc"></div>
+                        </label>
+                    </div>
+                    <div class="document-upload">
+                        <label class="document-label">
+                            <div class="document-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="document-info">
+                                <h4>Insurance</h4>
+                                <p>Upload vehicle insurance document</p>
+                            </div>
+                            <input type="file" id="doc-insurance" accept="image/*,.pdf" class="document-input">
+                            <div class="document-preview" id="preview-insurance"></div>
+                        </label>
+                    </div>
+                    <div class="document-upload">
+                        <label class="document-label">
+                            <div class="document-icon">
+                                <i class="fas fa-address-card"></i>
+                            </div>
+                            <div class="document-info">
+                                <h4>Aadhar Card</h4>
+                                <p>Upload your Aadhar card</p>
+                            </div>
+                            <input type="file" id="doc-aadhar" accept="image/*,.pdf" class="document-input">
+                            <div class="document-preview" id="preview-aadhar"></div>
+                        </label>
+                    </div>
+                    <div class="document-upload">
+                        <label class="document-label">
+                            <div class="document-icon">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <div class="document-info">
+                                <h4>Profile Photo</h4>
+                                <p>Upload your recent photo</p>
+                            </div>
+                            <input type="file" id="doc-photo" accept="image/*" class="document-input">
+                            <div class="document-preview" id="preview-photo"></div>
+                        </label>
+                    </div>
+                    <div class="terms-checkbox">
+                        <input type="checkbox" id="terms-accept" required>
+                        <label for="terms-accept">I agree to the Terms & Conditions and Privacy Policy</label>
+                    </div>
+                </div>
+                <div class="step-actions">
+                    <button class="btn-secondary" onclick="prevStep(2)"><i class="fas fa-arrow-left"></i> Back</button>
+                    <button class="btn-primary" onclick="submitRegistration()">
+                        <span id="submit-btn-text">Submit Registration</span>
+                        <i class="fas fa-check" id="submit-btn-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Dashboard -->
+    <div id="main-screen" class="screen" style="display: none;">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="driver-status">
+                <div class="status-indicator" id="status-indicator">
+                    <div class="status-dot offline"></div>
+                    <span id="status-text">Offline</span>
+                </div>
+            </div>
+            <button class="menu-btn" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Side Menu -->
+        <div class="side-menu" id="side-menu">
+            <div class="menu-header">
+                <div class="menu-avatar">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="menu-user-info">
+                    <h3 id="menu-driver-name">Driver</h3>
+                    <p id="menu-driver-phone">+91 XXXXXXXXXX</p>
+                    <div class="driver-rating-badge">
+                        <i class="fas fa-star"></i>
+                        <span id="menu-driver-rating">4.8</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-items">
+                <a href="#" class="menu-item" onclick="showTripHistory(); return false;">
+                    <i class="fas fa-history"></i>
+                    <span>Trip History</span>
+                </a>
+                <a href="#" class="menu-item" onclick="showEarnings(); return false;">
+                    <i class="fas fa-wallet"></i>
+                    <span>Earnings</span>
+                </a>
+                <a href="#" class="menu-item" onclick="showPerformance(); return false;">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Performance</span>
+                </a>
+                <a href="#" class="menu-item" onclick="showSupport(); return false;">
+                    <i class="fas fa-headset"></i>
+                    <span>Support</span>
+                </a>
+                <a href="#" class="menu-item" onclick="showSettings(); return false;">
+                    <i class="fas fa-cog"></i>
+                    <span>Settings</span>
+                </a>
+                <a href="#" class="menu-item" onclick="logout()">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Map Container -->
+        <div id="map-container" class="map-container">
+            <div id="map" class="map-placeholder">
+                <div class="map-overlay">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <p>Map Loading...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Offline Dashboard -->
+        <div class="bottom-sheet offline-sheet" id="offline-sheet">
+            <div class="sheet-handle"></div>
+
+            <div class="offline-content">
+                <div class="offline-icon">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <h2>You're Offline</h2>
+                <p>Go online to start accepting ride requests</p>
+
+                <button class="btn-go-online" onclick="goOnline()">
+                    <i class="fas fa-power-off"></i>
+                    <span>Go Online</span>
+                </button>
+            </div>
+
+            <!-- Today's Summary -->
+            <div class="summary-card">
+                <h3>Today's Summary</h3>
+                <div class="summary-stats">
+                    <div class="stat-item">
+                        <div class="stat-value">₹<span id="today-earnings">0</span></div>
+                        <div class="stat-label">Earnings</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-value"><span id="today-trips">0</span></div>
+                        <div class="stat-label">Trips</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-value"><span id="online-hours">0h</span></div>
+                        <div class="stat-label">Online</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Online Dashboard -->
+        <div class="bottom-sheet online-sheet" id="online-sheet" style="display: none;">
+            <div class="sheet-handle"></div>
+
+            <div class="online-header">
+                <div class="online-status">
+                    <div class="pulse-dot"></div>
+                    <span>You're Online</span>
+                </div>
+                <button class="btn-go-offline" onclick="goOffline()">
+                    Go Offline
+                </button>
+            </div>
+
+            <div class="earnings-card">
+                <div class="earnings-today">
+                    <span class="earnings-label">Today's Earnings</span>
+                    <span class="earnings-amount">₹<span id="live-earnings">0</span></span>
+                </div>
+                <div class="earnings-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                    <span class="progress-text">₹<span id="target-remaining">500</span> to reach daily target</span>
+                </div>
+            </div>
+
+            <div class="quick-stats">
+                <div class="quick-stat">
+                    <i class="fas fa-route"></i>
+                    <div>
+                        <span class="quick-stat-value"><span id="live-trips">0</span></span>
+                        <span class="quick-stat-label">Trips</span>
+                    </div>
+                </div>
+                <div class="quick-stat">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <span class="quick-stat-value"><span id="live-hours">0h</span></span>
+                        <span class="quick-stat-label">Online</span>
+                    </div>
+                </div>
+                <div class="quick-stat">
+                    <i class="fas fa-star"></i>
+                    <div>
+                        <span class="quick-stat-value" id="live-rating">4.8</span>
+                        <span class="quick-stat-label">Rating</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="waiting-message">
+                <i class="fas fa-hourglass-half"></i>
+                <p>Waiting for ride requests...</p>
+            </div>
+        </div>
+
+        <!-- Ride Request Sheet -->
+        <div class="bottom-sheet request-sheet" id="request-sheet" style="display: none;">
+            <div class="sheet-handle"></div>
+
+            <div class="request-header">
+                <h3>New Ride Request</h3>
+                <div class="request-timer">
+                    <i class="fas fa-clock"></i>
+                    <span id="accept-timer">8</span>s
+                </div>
+            </div>
+
+            <div class="request-details">
+                <div class="request-fare">
+                    <span class="fare-label">Estimated Fare</span>
+                    <span class="fare-amount">₹<span id="request-fare">0</span></span>
+                </div>
+
+                <div class="request-locations">
+                    <div class="location-item">
+                        <div class="location-icon pickup">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                        <div class="location-info">
+                            <span class="location-label">Pickup</span>
+                            <span class="location-address" id="request-pickup">Loading...</span>
+                        </div>
+                        <div class="location-distance">
+                            <span id="pickup-distance">2.5 km</span>
+                        </div>
+                    </div>
+
+                    <div class="location-divider"></div>
+
+                    <div class="location-item">
+                        <div class="location-icon drop">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="location-info">
+                            <span class="location-label">Drop</span>
+                            <span class="location-address" id="request-drop">Loading...</span>
+                        </div>
+                        <div class="location-distance">
+                            <span id="trip-distance">5.2 km</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rider-info">
+                    <div class="rider-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="rider-details">
+                        <span class="rider-name" id="rider-name">Rider</span>
+                        <div class="rider-rating">
+                            <i class="fas fa-star"></i>
+                            <span id="rider-rating">4.5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="request-actions">
+                <button class="btn-reject" onclick="rejectRequest()">
+                    <i class="fas fa-times"></i>
+                    <span>Reject</span>
+                </button>
+                <button class="btn-accept" onclick="acceptRequest()">
+                    <i class="fas fa-check"></i>
+                    <span>Accept</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Trip Sheet -->
+        <div class="bottom-sheet trip-sheet" id="trip-sheet" style="display: none;">
+            <div class="sheet-handle"></div>
+
+            <div class="trip-header">
+                <div class="trip-status">
+                    <div class="status-icon">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <div class="status-info">
+                        <span class="status-label" id="trip-status-label">Going to Pickup</span>
+                        <span class="status-time" id="trip-eta">5 mins away</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trip-rider-info">
+                <div class="rider-avatar">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="rider-details">
+                    <span class="rider-name" id="trip-rider-name">Rider</span>
+                    <div class="rider-rating">
+                        <i class="fas fa-star"></i>
+                        <span id="trip-rider-rating">4.5</span>
+                    </div>
+                </div>
+                <div class="rider-contact">
+                    <button class="btn-icon" onclick="callRider()">
+                        <i class="fas fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="trip-locations">
+                <div class="location-item">
+                    <div class="location-icon pickup">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <div class="location-info">
+                        <span class="location-label">Pickup</span>
+                        <span class="location-address" id="trip-pickup">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="location-divider"></div>
+
+                <div class="location-item">
+                    <div class="location-icon drop">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="location-info">
+                        <span class="location-label">Drop</span>
+                        <span class="location-address" id="trip-drop">Loading...</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trip-fare">
+                <span class="fare-label">Trip Fare</span>
+                <span class="fare-amount">₹<span id="trip-fare">0</span></span>
+            </div>
+
+            <div class="trip-action">
+                <button class="btn-trip-action" id="trip-action-btn" onclick="handleTripAction()">
+                    <span id="trip-action-text">Arrived at Pickup</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trip Complete Sheet -->
+    <div class="bottom-sheet complete-sheet" id="complete-sheet" style="display: none;">
+        <div class="sheet-handle"></div>
+        <div class="sheet-content">
+            <div class="complete-icon">
+                <i class="fas fa-check"></i>
+            </div>
+            <h2>Trip Completed!</h2>
+            <div class="complete-earnings">
+                <span class="complete-label">You earned</span>
+                <span class="complete-amount">₹<span id="complete-fare">0</span></span>
+            </div>
+            <div class="complete-details">
+                <div class="complete-detail-item">
+                    <span class="detail-label">Distance</span>
+                    <span class="detail-value"><span id="complete-distance">0</span> km</span>
+                </div>
+                <div class="complete-detail-item">
+                    <span class="detail-label">Duration</span>
+                    <span class="detail-value"><span id="complete-duration">0</span> min</span>
+                </div>
+            </div>
+            <button class="btn-trip-action" onclick="finishTrip()">
+                <i class="fas fa-home"></i>
+                Back to Dashboard
+            </button>
+        </div>
+    </div>
+
+    <!-- OTP Verification Modal -->
+    <div class="modal-overlay" id="otp-modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Verify OTP</h3>
+                <button class="modal-close" onclick="closeOtpModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Enter the 4-digit OTP from the rider to start the trip:</p>
+                <div class="otp-input-group">
+                    <input type="text" id="otp-input-1" class="otp-input" maxlength="1" oninput="handleOtpInput(1)">
+                    <input type="text" id="otp-input-2" class="otp-input" maxlength="1" oninput="handleOtpInput(2)">
+                    <input type="text" id="otp-input-3" class="otp-input" maxlength="1" oninput="handleOtpInput(3)">
+                    <input type="text" id="otp-input-4" class="otp-input" maxlength="1" oninput="handleOtpInput(4)">
+                </div>
+                <p class="otp-attempts" id="otp-attempts" style="display: none;">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <span id="otp-attempts-text"></span>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="closeOtpModal()">Cancel</button>
+                <button class="btn-primary" id="verify-otp-btn" onclick="verifyOtp()">
+                    <i class="fas fa-check"></i> Verify
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Modals -->
+    <!-- Trip History Modal -->
+    <div class="page-modal" id="trip-history-modal" style="display: none;">
+        <div class="page-modal-header">
+            <button class="back-btn" onclick="closePageModal('trip-history-modal')">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <h2>Trip History</h2>
+        </div>
+        <div class="page-modal-content">
+            <div class="history-filters">
+                <button class="filter-btn active" data-filter="today"
+                    onclick="filterTripHistory('today', this)">Today</button>
+                <button class="filter-btn" data-filter="week" onclick="filterTripHistory('week', this)">This
+                    Week</button>
+                <button class="filter-btn" data-filter="month" onclick="filterTripHistory('month', this)">This
+                    Month</button>
+            </div>
+            <div class="trip-list" id="trip-history-list">
+                <!-- Trips will be loaded dynamically from API -->
+            </div>
+            <div class="empty-state" id="no-trips-msg" style="display: none;">
+                <i class="fas fa-car"></i>
+                <p>No trips yet today</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Earnings Modal -->
+    <div class="page-modal" id="earnings-modal" style="display: none;">
+        <div class="page-modal-header">
+            <button class="back-btn" onclick="closePageModal('earnings-modal')">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <h2>Earnings</h2>
+        </div>
+        <div class="page-modal-content">
+            <div class="earnings-summary-card">
+                <div class="earnings-period">
+                    <button class="period-btn active" data-period="today"
+                        onclick="filterEarnings('today', this)">Today</button>
+                    <button class="period-btn" data-period="week" onclick="filterEarnings('week', this)">Week</button>
+                    <button class="period-btn" data-period="month"
+                        onclick="filterEarnings('month', this)">Month</button>
+                </div>
+                <div class="earnings-total">
+                    <span class="earnings-total-label">Total Earnings</span>
+                    <span class="earnings-total-amount">₹<span id="modal-total-earnings">0</span></span>
+                </div>
+            </div>
+            <div class="earnings-breakdown">
+                <h3>Breakdown</h3>
+                <div class="breakdown-item">
+                    <div class="breakdown-info">
+                        <i class="fas fa-car" style="color: var(--driver-primary);"></i>
+                        <span>Trip Earnings</span>
+                    </div>
+                    <span class="breakdown-amount">₹<span id="modal-trip-earnings">0</span></span>
+                </div>
+                <div class="breakdown-item">
+                    <div class="breakdown-info">
+                        <i class="fas fa-gift" style="color: #FF9500;"></i>
+                        <span>Incentives</span>
+                    </div>
+                    <span class="breakdown-amount">₹0</span>
+                </div>
+                <div class="breakdown-item">
+                    <div class="breakdown-info">
+                        <i class="fas fa-star" style="color: #FFD60A;"></i>
+                        <span>Tips</span>
+                    </div>
+                    <span class="breakdown-amount">₹0</span>
+                </div>
+            </div>
+            <div class="earnings-stats">
+                <div class="stat-box">
+                    <span class="stat-box-value" id="modal-trips-count">0</span>
+                    <span class="stat-box-label">Trips</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-box-value" id="modal-online-hours">0h</span>
+                    <span class="stat-box-label">Online</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-box-value">₹<span id="modal-avg-fare">0</span></span>
+                    <span class="stat-box-label">Avg Fare</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Performance Modal -->
+    <div class="page-modal" id="performance-modal" style="display: none;">
+        <div class="page-modal-header">
+            <button class="back-btn" onclick="closePageModal('performance-modal')">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <h2>Performance</h2>
+        </div>
+        <div class="page-modal-content">
+            <div class="performance-rating">
+                <div class="rating-circle">
+                    <span class="rating-value" id="modal-rating">4.8</span>
+                </div>
+                <p>Your Rating</p>
+            </div>
+            <div class="performance-metrics">
+                <div class="metric-card">
+                    <div class="metric-header">
+                        <i class="fas fa-check-circle" style="color: var(--driver-primary);"></i>
+                        <span>Acceptance Rate</span>
+                    </div>
+                    <div class="metric-bar">
+                        <div class="metric-fill" style="width: 92%;"></div>
+                    </div>
+                    <span class="metric-value">92%</span>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-header">
+                        <i class="fas fa-times-circle" style="color: #FF3B30;"></i>
+                        <span>Cancellation Rate</span>
+                    </div>
+                    <div class="metric-bar">
+                        <div class="metric-fill bad" style="width: 5%;"></div>
+                    </div>
+                    <span class="metric-value">5%</span>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-header">
+                        <i class="fas fa-clock" style="color: #00D9FF;"></i>
+                        <span>On-Time Arrival</span>
+                    </div>
+                    <div class="metric-bar">
+                        <div class="metric-fill" style="width: 88%;"></div>
+                    </div>
+                    <span class="metric-value">88%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Support Modal -->
+    <div class="page-modal" id="support-modal" style="display: none;">
+        <div class="page-modal-header">
+            <button class="back-btn" onclick="closePageModal('support-modal')">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <h2>Support</h2>
+        </div>
+        <div class="page-modal-content">
+            <div class="support-options">
+                <a href="tel:1800-XXX-XXXX" class="support-option">
+                    <div class="support-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="support-info">
+                        <h4>Call Support</h4>
+                        <p>24/7 helpline available</p>
+                    </div>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                <a href="#" class="support-option" onclick="alert('Chat coming soon!');">
+                    <div class="support-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="support-info">
+                        <h4>Live Chat</h4>
+                        <p>Chat with our support team</p>
+                    </div>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                <a href="mailto:support@rapidride.com" class="support-option">
+                    <div class="support-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="support-info">
+                        <h4>Email Us</h4>
+                        <p>support@rapidride.com</p>
+                    </div>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                <a href="#" class="support-option" onclick="alert('FAQ coming soon!');">
+                    <div class="support-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <div class="support-info">
+                        <h4>FAQ</h4>
+                        <p>Frequently asked questions</p>
+                    </div>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div class="page-modal" id="settings-modal-page" style="display: none;">
+        <div class="page-modal-header">
+            <button class="back-btn" onclick="closePageModal('settings-modal-page')">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <h2>Settings</h2>
+        </div>
+        <div class="page-modal-content">
+            <div class="settings-section">
+                <h3>Notifications</h3>
+                <div class="settings-option">
+                    <span>Ride Requests</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" checked>
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
+                <div class="settings-option">
+                    <span>Promotions</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox">
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="settings-section">
+                <h3>Preferences</h3>
+                <div class="settings-option">
+                    <span>Dark Mode</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" checked>
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
+                <div class="settings-option">
+                    <span>Sound Effects</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" checked>
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="settings-section">
+                <h3>Account</h3>
+                <button class="settings-btn" onclick="alert('Edit Profile coming soon!');">
+                    <i class="fas fa-user-edit"></i> Edit Profile
+                </button>
+                <button class="settings-btn danger" onclick="logout();">
+                    <i class="fas fa-sign-out-alt"></i> Logout
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/utils.js?v=5"></script>
+    <script src="js/driver.js?v=5"></script>
+    <link rel="stylesheet" href="css/utils.css">
+</body>
+
+</html>

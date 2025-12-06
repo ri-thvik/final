@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    min-height: 100vh;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+input, select, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    box-sizing: border-box;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #218838;
+}
+
+#map-placeholder {
+    height: 300px;
+    background: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.booking-panel, .status-panel {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.request-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    background: #fff;
+}

@@ -1,0 +1,52 @@
+/* ==================== DRIVER MAP MARKER ==================== */
+.driver-location-marker .pulse-marker {
+    width: 30px;
+    height: 30px;
+    background: var(--driver-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 200, 83, 0.4);
+}
+
+.driver-location-marker .pulse-marker::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: var(--driver-primary);
+    opacity: 0.4;
+    animation: pulse 2s infinite;
+}
+
+/* ==================== MAP CONTAINER ==================== */
+.map-container {
+    position: fixed !important;
+    top: 60px !important;
+    /* Below top bar */
+    bottom: 0 !important;
+    left: 250px !important;
+    /* Space for side menu */
+    right: 380px !important;
+    /* Space for right panel */
+    z-index: 1 !important;
+    width: auto !important;
+}
+
+#map {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Mobile adjustments */
+@media (max-width: 767px) {
+    .map-container {
+        left: 0 !important;
+        right: 0 !important;
+    }
+}
